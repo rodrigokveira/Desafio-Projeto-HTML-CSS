@@ -7,6 +7,10 @@ body {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADER */
 
 .header-wrapper {
@@ -116,8 +120,6 @@ a:hover {
     display: none;
 }
 
-/* .checkbox .trace.trace:nth-child(1):{} */
-
 /* MENU */
 
 .menu {
@@ -195,6 +197,10 @@ a:hover {
     visibility: visible;
     opacity: 1;
 }
+
+/* #toggle:checked ~ html, body {
+    overflow: hidden;
+} */
 
 /* CARDS */
 
